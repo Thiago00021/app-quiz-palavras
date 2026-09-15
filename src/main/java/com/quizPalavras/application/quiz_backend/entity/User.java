@@ -29,7 +29,7 @@ public class User {
     @Column(length = 11)
     private String phoneNumber;
 
-    @Column(unique = true,length = 14)
+    @Column(unique = true,length = 11)
     private String cpf;
 
     private LocalDate dateBorn;
