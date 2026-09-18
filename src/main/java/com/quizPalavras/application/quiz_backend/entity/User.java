@@ -34,7 +34,7 @@ public class User {
 
     private LocalDate dateBorn;
 
-    @Column(nullable = false,length = 20)
+    @Column(nullable = false,length = 255)
     private String password;
 
 }
